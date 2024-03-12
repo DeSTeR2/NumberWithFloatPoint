@@ -151,7 +151,9 @@ void Double::Log() {
 	std::cout << "Original number: " << originalNumber << "\n";
 	std::cout << "Sign:     " << sign << '\n';
 	std::cout << "Exponent: " << exponent << '\n';
-	std::cout << "Mantissa: " << mantissa << '\n';
+	mantissa.erase(mantissa.begin());
+	std::cout << "Mantissa: (1)" << mantissa << '\n';
+	mantissa = '1' + mantissa;
 	std::cout << "Conversion: "  << GetDouble() << '\n';
 	for (int i=0; i<30; i++) std::cout << char(196);
 	std::cout << '\n';

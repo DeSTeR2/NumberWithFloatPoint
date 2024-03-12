@@ -10,7 +10,7 @@ class Double
 	std::string mantissa;
 
 	int minusExponent;
-	int maxMantissa = 13;
+	int maxMantissa = 14;
 	int maxExponent = 11;
 
 	double originalNumber;
