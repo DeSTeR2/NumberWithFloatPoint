@@ -140,6 +140,7 @@ std::string Double::SetMantissa(double num) {
 		}
 		else bin += '0';
 	}
+	bin[bin.size() - 1] = char(num + '0');
 	return bin;
 }
 
