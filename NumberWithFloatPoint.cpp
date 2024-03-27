@@ -109,7 +109,7 @@ int main()
 	printf((ColorSupportEnabled() && !IsRedirectedToFile(STD_OUTPUT_HANDLE)) ? "\x1b[92m-INFINITY:\n\x1b[0m" : "<skipped>");
 	Double nInf = -INFINITY;
 	printf((ColorSupportEnabled() && !IsRedirectedToFile(STD_OUTPUT_HANDLE)) ? "\x1b[92mNon normalaze:\n\x1b[0m" : "<skipped>");
-	Double nNormalize(0, "00000000000", "00000000000000");
+	Double nNormalize(0, "00000000000", "00000000000001");
 	printf((ColorSupportEnabled() && !IsRedirectedToFile(STD_OUTPUT_HANDLE)) ? "\x1b[92mNaN number:\n\x1b[0m" : "<skipped>");
 	Double NaN;
 	
